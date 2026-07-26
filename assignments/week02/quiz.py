@@ -3,7 +3,7 @@ BMI Calculator (20 points)
 
 Write a program that:
 
-Asks for weight in kilograms
+Asks for weight in kilograms 
 Asks for height in meters
 Calculates BMI using formula: BMI = weight / (height²)
 Displays BMI with 1 decimal place
