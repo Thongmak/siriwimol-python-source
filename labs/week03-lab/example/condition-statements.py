@@ -1,7 +1,7 @@
 # Simple if statement
-age = int(input("Enter your age: "))
-if age >= 18:
-    print("You are an adult")
+age = int(input("Enter your age: "))  #รับค่าจากผู้ใช้
+if age >= 18:                         #ถ้าผ่านเงื่อนไข
+    print("You are an adult")         #ปริ้นค่า
 
 # if-else statement
 temperature = 25
