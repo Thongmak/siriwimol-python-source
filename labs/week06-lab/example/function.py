@@ -127,7 +127,7 @@ print(f"square root of 25 =", square_root(25))
 print()
 
 # =============================================================================
-# PART 4: DEFAULT PARAMETERS
+# PART 4: DEFAULT PARAMETERS ค่าเริ่มต้น
 # =============================================================================
 print("\n=== PART 4: DEFAULT PARAMETERS ===")
 
