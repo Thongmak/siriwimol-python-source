@@ -7,9 +7,9 @@
 
 print("=== STRING CREATION ===")
 # Different ways to create strings
-name = "India"
+name = "India"  #ประกาศตัวแปร 
 graduate = 'B.E.'
-multiline = """This is a
+multiline = """This is a    
 multiline string
 example"""
 
@@ -28,16 +28,16 @@ print(f"Hello {name}")
 
 # Converting string to number
 apple = input("Enter a number: ")
-try:
+try:                #ใช้ปริ้นตัวเลขเท่านั้น
     x = int(apple) - 10
     print(f"Result: {x}")
-except ValueError:
+except ValueError:     #ถ้าใส่อักษรจะปริ้นคำข้างล่างขึ้นมา
     print("Please enter a valid number!")
 
 # ===========================
 # 3. STRING INDEXING
 # ===========================
-
+    #ทวน
 print("\n=== STRING INDEXING ===")
 fruit = 'banana'
 print(f"fruit = {fruit}")
@@ -185,9 +185,11 @@ sal = 20000
 
 # Different format styles
 str1 = '{},{},{}'.format(id_num, name, sal)
+str1 = f'{id_name},{name},{sal}'
 print(str1)  # 10,shankar,20000
 
 str2 = '{} - {} - {}'.format(id_num, name, sal)
+str2 = f'{id_name} - {name} - {sal}'
 print(str2)  # 10 - shankar - 20000
 
 str3 = 'id={}\nname={}\nsal={}'.format(id_num, name, sal)
